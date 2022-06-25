@@ -2,6 +2,13 @@
 
 Cartoon face recognition is challenging as they typically have smooth color regions and emphasized edges, the key to recognizing cartoon faces is to precisely perceive their **sparse and critical shape patterns**. we propose the **GraphJigsaw** that constructs **jigsaw** puzzles at various stages in the classification network and solves the puzzles with the **graph convolutional network (GCN)** progressively.  **GraphJigsaw** significantly enhance the Cartoon face recognition accuracy with **no extra manual annotation during training** and **no extra computation burden during inference**.  We hope **GraphJigsaw** will shed light on understanding and improving the performance of cartoon face recognition.
 
+
+
+![](figure2.jpg)
+
+### Main idea of GraphJigsaw
+
+
 ### Prerequisites
 - Python 2.x
 - Pytorch 0.4.x or above
