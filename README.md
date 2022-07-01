@@ -7,7 +7,7 @@ Cartoon face recognition is challenging as they typically have smooth color regi
 ![](figure2.jpg)
 Main idea of **GraphJigsaw**. 
 
-GraphJigsaw takes $\mathbf{X}^3_{\text{in}}$  and   as the input and target, which are input/output of the 3rd stage in the backbone network (e.g., ResNet-50 or DenseNet-169). GraphJigsaw takes $\mathbf{X}^3_{\text{in}}$ as input and constructs a *shuffled graph*, then solves the jigsaw puzzle in the face *graph encoding* and *decoding*  process. GraphJigsaw can be incorporated in each stage in the backbone network in a top-down manner, thus the valuable shape patterns of the input cartoon faces can be reserved in the early stages and strengthened in the later stages gradually.
+GraphJigsaw takes the input/output of the 1st/2nd/3rd/4th stage in the backbone network (e.g., ResNet-50 or DenseNet-169) as the input/target. GraphJigsaw takes $\mathbf{X}^3_{\text{in}}$ as input and constructs a *shuffled graph*, then solves the jigsaw puzzle in the face *graph encoding* and *decoding*  process. GraphJigsaw can be incorporated in each stage in the backbone network in a top-down manner, thus the valuable shape patterns of the input cartoon faces can be reserved in the early stages and strengthened in the later stages gradually.
 
 
 
